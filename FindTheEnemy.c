@@ -62,9 +62,6 @@ int main(){
 				prepareTheGame(displayMatrix , placementMatrix,treeCount,enemyCount);
 				update(displayMatrix, placementMatrix,playerPosition,remainingEnemy);
 			}
-			else{
-				break;
-			}
 			break;
 	}
 	
